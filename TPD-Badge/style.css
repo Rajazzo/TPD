@@ -1,25 +1,27 @@
 body {
   font-family: 'Times New Roman';
+  display: grid;
+  grid-template-columns: auto auto;
 }
 
 .card {
   border: 2px solid midnightblue;
   border-radius: 15px;
-  width: 9cm;
-  height: 6cm;
-  margin: 2px;
+  width: 85mm;
+  height: 55mm;
+  margin: 10px;
   background-color: lightblue;
 }
 
 .name {
     text-align: center ;    
-    font-size: 32pt;
+    font-size: 28pt;
     font-weight: bold;
 }
 
 .qrcode {
     display: flex;
     margin: 5px auto;
-    height: 4.3cm;
-    width: 4.3cm;
+    height: 40mm;
+    width: 40mm;
 }
