@@ -11,9 +11,12 @@ body {
   height: 55mm;
   margin: 10px;
   padding: 2mm;
-  background-color: lightblue;
+  background-color: white;
   display: flex;
   flex-direction: column;
+  translate: -85mm;
+  rotate: -90deg;
+  transform-origin: top right;
   box-sizing: border-box;
 }
 
@@ -32,13 +35,13 @@ body {
 .logo {
   height: 50mm;
   width: 50mm;
-  translate: -4mm -7mm;
+  translate: -4mm -4mm;
 }
 
 .qr {
   height: 20mm;
   width: 20mm;
-  translate: 0 -7mm;
+  translate: 0 -4mm;
 }
 
 /*
