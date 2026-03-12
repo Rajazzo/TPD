@@ -35,13 +35,13 @@ body {
 .logo {
   height: 50mm;
   width: 50mm;
-  translate: -4mm -4mm;
+  translate: -4mm -7mm;
 }
 
 .qr {
   height: 20mm;
   width: 20mm;
-  translate: 0 -4mm;
+  translate: 0 -7mm;
 }
 
 /*
