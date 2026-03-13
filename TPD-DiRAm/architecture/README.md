@@ -7,6 +7,8 @@ title: "![arc42](images/arc42-logo.png) Template"
 
 **Über arc42**
 
+![arc42](images/arc42-logo.png) 
+
 arc42, das Template zur Dokumentation von Software- und
 Systemarchitekturen.
 
@@ -23,9 +25,12 @@ contributors. Siehe <https://arc42.org>.
 
 # Einführung und Ziele
 
-Beschreibt die wesentlichen Anforderungen und treibenden Kräfte, die bei
-der Umsetzung der Softwarearchitektur und Entwicklung des Systems
-berücksichtigt werden müssen.
+Das Projekt DiRAm (_Digitale Registrierung und Anmeldung_) ist ein SW/HW-Projekt zur Unterstützung von Verwaltungs- und Anmeldeprozessen des _Treffpunkt Deutsch Heilbronn_. 
+
+Die Organisationsabläufe für die Anmeldung von Mentees, deren Zuordnung zu wechselnden Mentor:innen sind kritisch hinsichtlich der dafür erforderlichen Zeit und dem Aufwand, um die richtigen Sprachlevel (A1-C2) der Mentee-Gruppen zuzuordnen. 
+
+Daher war die Idee, diesen Anmeldeprozess mit Hilfe digitaler Prozesse flüssiger und schneller zu gestalten.
+Die Anforderungen an das System kommen im wesentlichen von den Hauptverantwortlichen und den Personen, die den Anmeldeprozess gestalten. 
 
 Dazu gehören:
 
@@ -47,10 +52,18 @@ Dazu gehören:
 
 </div>
 
-Kurzbeschreibung der fachlichen Aufgabenstellung, treibenden Kräfte,
-Extrakt (oder Abstract) der Anforderungen. Verweis auf (hoffentlich
-vorliegende) Anforderungsdokumente (mit Versionsbezeichnungen und
-Ablageorten).
+DiRAm soll alle Prozess-Schritte, die im Rahmen der Registrierung und Anmeldung zum _Treffpunkt Deutsch_ anfallen, möglichst einfach und effizient digital abbilden.
+
+Dazu gehören insbesondere:
+- Neuregistrierung von Mentees
+- Neuregistrierung von Mentor:innen 
+- Anmeldung am TPD Tag
+   - Zuordnung der Mentor:innen zu einem Platz zur Druchführung der Trainings
+   - Zuordnung der Mentees zu einem Mentor
+- Dokumentation der Anwesenheiten (???)  
+
+Diese Schritte sollen mithilfe von Computern / Tablets erfolgen.
+Die dafür notwendige Infrastruktur soll dabei robust und einfach zu bedienen sein.
 
 <div class="formalpara-title">
 
@@ -58,9 +71,7 @@ Ablageorten).
 
 </div>
 
-Aus Sicht der späteren Nutzung ist die Unterstützung einer fachlichen
-Aufgabe oder Verbesserung der Qualität der eigentliche Beweggrund, ein
-neues System zu schaffen oder ein bestehendes zu modifizieren.
+Die o.g. Aufgaben werden heute teils händisch und auf Basis von Google Docs Tabellen bearbeitet. Die Abläufe bei der Anmeldung sind daher teilweise sehr zeitaufwändig. Die für diese Adminstrationsaufgaben aufgewendete Zeit wäre besser bei den Mentees investiert, deren Aus- und Weiterbildung ja der eigentliche Zweck der Veranstaltung ist.
 
 <div class="formalpara-title">
 
@@ -68,12 +79,26 @@ neues System zu schaffen oder ein bestehendes zu modifizieren.
 
 </div>
 
-Kurze textuelle Beschreibung, eventuell in tabellarischer Use-Case Form.
-Sofern vorhanden, sollte die Aufgabenstellung Verweise auf die
-entsprechenden Anforderungsdokumente enthalten.
+**Use Case 1: Neuregistrierung Mentee**
 
-Halten Sie diese Auszüge so knapp wie möglich und wägen Sie Lesbarkeit
-und Redundanzfreiheit gegeneinander ab.
+Als Mentee möchte ich mich auf einfache Art und Weise über mein Handy oder an einem PC beim _Treffpunkt Deutsch_ anmelden, um  
+direkten Zugang zu den Trainings zu erhalten. Dabei bekomme ich direkt Feedback über meine e-Mail, dass der Vorgang erfolgreich war.
+
+**Use Case 2: Neuregistrierung Meontor:innen**
+
+Als Mentor möcht ich meine Anmeldedaten einfach an den _Treffpunkt Deutsch_ übermitteln, um mich als beuer Mentor zur Verfügung zu stellen. Dabei bekomme ich direkt Feedback über meine e-Mail, dass der Vorgang erfolgreich war.
+
+**Use Case 3: Verwaltung der Datenbank**
+
+Als Administrator des DiRAm Projekts möchte ich alle Anmeldedaten in einer Datenbank verwalten.  ...
+
+---
+---
+<span style="color:red">**Bis hierhin ist das Template bearbeitet**</span>
+
+---
+---
+
 
 <div class="formalpara-title">
 
@@ -83,6 +108,9 @@ und Redundanzfreiheit gegeneinander ab.
 
 Siehe [Anforderungen und Ziele](https://docs.arc42.org/section-1/) in
 der online-Dokumentation (auf Englisch!).
+
+
+
 
 ## Qualitätsziele
 
