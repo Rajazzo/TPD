@@ -11,17 +11,15 @@ Die QR-Codes der einzelnen Mentoren wurden dabei über die [Treffpunkt Managemen
 Für jeden Mentor ist im HTML eine Klasse <i>card</i> angelegt, in dem der Vorame und erste Buchstabe des Nachnames (im Beispiel oben: <i>Name X</i>) sowie das "Treffpunkt-Deutsch" Logo und der hinterlegte QR Code zusammengefasst sind.
 
 ```
-<code>
-    <div class="card">
-        <div class="name">
-            Name X
-        </div>
-        <div class=qrcode>
-            <img class="logo" src="./treffpunkt-deutsch2.png"/>
-            <img class="qr" src="./qr-codes/Name X.png"/>
-        </div>        
+<div class="card">
+    <div class="name">
+        Name X
     </div>
-</code>
+    <div class=qrcode>
+        <img class="logo" src="./treffpunkt-deutsch2.png"/>
+        <img class="qr" src="./qr-codes/Name X.png"/>
+    </div>        
+</div>
 ````
 
 Im dazugehörigen [style.css](style.css) ist das Layout für die <i>.card</i> Abschnitte definiert. Wesentliche Elemente sind die absoluten Maße der Karte (8,5 x 5,5 cm) sowie die Ausrichtung der Elemente über ein sogenanntes "grid" und "flex" Layout.
