@@ -34,6 +34,9 @@ Die Organisationsabläufe für die Anmeldung von Mentees, deren Zuordnung zu wec
 Daher war die Idee, diesen Anmeldeprozess mit Hilfe digitaler Prozesse flüssiger und schneller zu gestalten.
 Die Anforderungen an das System kommen im wesentlichen von den Hauptverantwortlichen und den Personen, die den Anmeldeprozess gestalten. 
 
+![top-level systeem diagram](./images/top-level.png)
+
+
 <!--
 Dazu gehören:
 
@@ -103,6 +106,7 @@ Als Administrator des DiRAm Projekts möchte ich alle Anmeldedaten in einer Date
 ---
 ---
 
+<!--
 
 <div class="formalpara-title">
 
@@ -1234,6 +1238,8 @@ Sie sollten relevante Begriffe klar definieren, so dass alle Beteiligten
 Zweispaltige Tabelle mit \<Begriff\> und \<Definition\>.
 
 Eventuell weitere Spalten mit Übersetzungen, falls notwendig.
+
+-->
 
 <div class="formalpara-title">
 
