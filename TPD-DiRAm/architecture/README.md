@@ -88,16 +88,23 @@ Die o.g. Aufgaben werden heute teils händisch und auf Basis von Google Docs Tab
 
 **Use Case 1: Neuregistrierung Mentee**
 
-Als Mentee möchte ich mich auf einfache Art und Weise über mein Handy oder an einem PC beim _Treffpunkt Deutsch_ anmelden, um  
-direkten Zugang zu den Trainings zu erhalten. Dabei bekomme ich direkt Feedback über meine e-Mail, dass der Vorgang erfolgreich war.
+Als Mentee möchte ich mich auf einfache Art und Weise über mein Handy oder an einem PC beim _Treffpunkt Deutsch_ anmelden, um Zugang zu den Trainings zu erhalten. Dabei bekomme ich direkt Feedback per e-Mail, dass der Vorgang erfolgreich war.
 
 **Use Case 2: Neuregistrierung Mentor:innen**
 
-Als Mentor möcht ich meine Anmeldedaten einfach an den _Treffpunkt Deutsch_ übermitteln, um mich als beuer Mentor zur Verfügung zu stellen. Dabei bekomme ich direkt Feedback über meine e-Mail, dass der Vorgang erfolgreich war.
+Als Mentor möcht ich meine Anmeldedaten einfach an den _Treffpunkt Deutsch_ übermitteln, um mich als neuer Mentor zur Verfügung zu stellen. Dabei bekomme ich direkt Feedback per e-Mail, dass der Vorgang erfolgreich war.
 
 **Use Case 3: Verwaltung der Datenbank**
 
-Als Administrator des DiRAm Projekts möchte ich alle Anmeldedaten in einer Datenbank verwalten.  ...
+Als Administrator des DiRAm Projekts möchte ich alle Datensätze der Datenbank verwalten.  Das umfasst:
+- Anlegen neuer Datensätze
+- Löschen von Datensätzen
+- Änderungen von Datensätzen
+- Exportieren von Datensätzen
+- Backup Prozeduren
+
+
+...
 
 ---
 ---
