@@ -99,10 +99,17 @@ Als Mentor:in möchte ich mich selbstständig an einem Table/PC anmelden, so da�
 Als Mentee kann ich mich beim Anmeldeteam mit meinem QR Code ausweisen, so daß das Anmeldeteam sofort meine Daten und mein Sprachlevel vorliegen hat.
 
 * **Use Case: Zuordnung der Mentees zu einem/r Mentor:in am TPD Tag**  
-Als Anmeldeteam kann ich den Mentee über seinen QR Code per Scanner identifizieren, so daß ich ihn/sie direkt einem/r Mentor:in zuordnen kann. Durch die Zuordnung ist auch ersichtlich an welchem Platz (Tisch) der/die Mentor:in sitzt.
+Als Anmeldeteam kann ich den Mentee über seinen QR Code (auf dem Handy oder als Label auf dem Trainingsheft) per Scanner identifizieren, so daß ich ihn/sie direkt einem/r Mentor:in zuordnen kann. Durch die Zuordnung ist auch ersichtlich an welchem Platz (Tisch) der/die Mentor:in sitzt.
 
 * **Use Case: Überprüfung von Neuanmeldungen**  
 Als Registrar möchte ich die Daten neuangemeldeter Personen (vorläufige Datensätze) überprüfen können, um sie bei erfolgreicher Überprüfung in die Datenbank zu übernehmen (bestätigte Datensätze). Bei nicht erfolgreicher Überprüfung (z.B. fehlende Daten, Dubletten) kann ich die vorläufigen Datensätze löschen.
+
+* **Use Case: Ausdrucken von QR Codes**  
+Als Registrar möchte ich den Mentees einen Ausdruck ihres QR Codes auf einem Label-Drucker zur Verfügung stellen, so daß die Mentees diesen auf ihr Traingsheft aufkleben können. Dieser QR Code kann dann zur Anmeldung verwendet werden (vgl. Use Case _Anmeldung Mentee am TPD Tag_). Dies ist erforderlich falls der Mentee kein Handy mit seinem QR Code dabei hat.
+> [!NOTE] Die generelle Ausgabe des QR Codes per Labeldrucker zum Aufkleben auf die Trainingshefte hätte eventuell den Vorteil, dass die Mentees ihr Trainingsheft immer dabei haben.  
+
+* **Use Case: Erstellen von Badges für Mentor:innen**  
+Als Ausgabestelle für Badges möchte ich die Badges mit dem [definierten Format](../../TPD-Badge/README.md) - direkt an einen Farbdrucker ausgeben können. 
 
 * **Use Case: Verwaltung der Datenbank**  
 Als Administrator des DiRAm Projekts möchte ich alle Datensätze der Datenbank verwalten, so daß ich folgende Tätigkeiten durchführen kann:
