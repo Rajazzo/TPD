@@ -107,7 +107,8 @@ Als Registrar möchte ich die Daten neuangemeldeter Personen (vorläufige Datens
 * **Use Case: Ausdrucken von QR Codes**  
 Als Registrar möchte ich den Mentees einen Ausdruck ihres QR Codes auf einem Label-Drucker zur Verfügung stellen, so daß die Mentees diesen auf ihr Traingsheft aufkleben können. Dieser QR Code kann dann zur Anmeldung verwendet werden (vgl. Use Case _Anmeldung Mentee am TPD Tag_). Dies ist erforderlich falls der Mentee kein Handy mit seinem QR Code dabei hat.
 
-> [!NOTE] Die generelle Ausgabe des QR Codes per Labeldrucker zum Aufkleben auf die Trainingshefte hätte eventuell den Vorteil, dass die Mentees ihr Trainingsheft immer dabei haben.  
+> [!NOTE] 
+> Die generelle Ausgabe des QR Codes per Labeldrucker zum Aufkleben auf die Trainingshefte hätte eventuell den Vorteil, dass die Mentees ihr Trainingsheft immer dabei haben.  
 
 * **Use Case: Erstellen von Badges für Mentor:innen**  
 Als Ausgabestelle für Badges möchte ich die Badges mit dem [definierten Format](../../TPD-Badge/README.md) - direkt an einen Farbdrucker ausgeben können. 
