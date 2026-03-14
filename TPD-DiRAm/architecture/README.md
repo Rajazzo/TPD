@@ -3,7 +3,7 @@ date: Juli 2025
 title: "![arc42](images/arc42-logo.png) Template"
 ---
 
-# 
+#  
 
 **Über arc42**
 
@@ -23,6 +23,8 @@ contributors. Siehe <https://arc42.org>.
 > Für die Dokumentation eigener System verwenden Sie besser die *plain*
 > Version.
 
+#
+
 # Einführung und Ziele
 
 Das Projekt DiRAm (_Digitale Registrierung und Anmeldung_) ist ein SW/HW-Projekt zur Unterstützung von Verwaltungs- und Anmeldeprozessen des _Treffpunkt Deutsch Heilbronn_. 
@@ -32,6 +34,7 @@ Die Organisationsabläufe für die Anmeldung von Mentees, deren Zuordnung zu wec
 Daher war die Idee, diesen Anmeldeprozess mit Hilfe digitaler Prozesse flüssiger und schneller zu gestalten.
 Die Anforderungen an das System kommen im wesentlichen von den Hauptverantwortlichen und den Personen, die den Anmeldeprozess gestalten. 
 
+<!--
 Dazu gehören:
 
 - zugrunde liegende Geschäftsziele,
@@ -43,6 +46,7 @@ Dazu gehören:
 - Qualitätsziele für die Architektur und
 
 - relevante Stakeholder und deren Erwartungshaltung.
+-->
 
 ## Aufgabenstellung
 
