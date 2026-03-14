@@ -91,7 +91,7 @@ Die o.g. Aufgaben werden heute teils händisch und auf Basis von Google Docs Tab
 Als Mentee möchte ich mich auf einfache Art und Weise über mein Handy oder an einem PC beim _Treffpunkt Deutsch_ anmelden, um  
 direkten Zugang zu den Trainings zu erhalten. Dabei bekomme ich direkt Feedback über meine e-Mail, dass der Vorgang erfolgreich war.
 
-**Use Case 2: Neuregistrierung Meontor:innen**
+**Use Case 2: Neuregistrierung Mentor:innen**
 
 Als Mentor möcht ich meine Anmeldedaten einfach an den _Treffpunkt Deutsch_ übermitteln, um mich als beuer Mentor zur Verfügung zu stellen. Dabei bekomme ich direkt Feedback über meine e-Mail, dass der Vorgang erfolgreich war.
 
