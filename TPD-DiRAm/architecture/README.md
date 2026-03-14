@@ -66,7 +66,7 @@ Dazu gehören insbesondere:
 - Neuregistrierung von Mentor:innen 
 - Anmeldung am TPD Tag
    - Zuordnung der Mentor:innen zu einem Platz zur Druchführung der Trainings
-   - Zuordnung der Mentees zu einem Mentor
+   - Zuordnung der Mentees zu einem Platz und Mentor
 - Dokumentation der Anwesenheiten (???)  
 
 Diese Schritte sollen mithilfe von Computern / Tablets erfolgen.
@@ -86,32 +86,44 @@ Die o.g. Aufgaben werden heute teils händisch und auf Basis von Google Docs Tab
 
 </div>
 
-**Use Case 1: Neuregistrierung Mentee**
-
+* **Use Case: Neuregistrierung Mentee**  
 Als Mentee möchte ich mich auf einfache Art und Weise über mein Handy oder an einem PC beim _Treffpunkt Deutsch_ anmelden, um Zugang zu den Trainings zu erhalten. Dabei bekomme ich direkt Feedback per e-Mail, dass der Vorgang erfolgreich war.
 
-**Use Case 2: Neuregistrierung Mentor:innen**
+* **Use Case: Neuregistrierung Mentor:innen**  
+Als Mentor möcht ich meine Anmeldedaten einfach an den _Treffpunkt Deutsch_ übermitteln, um mich als neuer Mentor zur Verfügung zu stellen. Dabei bekomme ich direkt Feedback per e-Mail, dass der Vorgang erfolgreich war. Gleichzeitig wird die Ausgabe einer Badge mit QR Code getriggert.
 
-Als Mentor möcht ich meine Anmeldedaten einfach an den _Treffpunkt Deutsch_ übermitteln, um mich als neuer Mentor zur Verfügung zu stellen. Dabei bekomme ich direkt Feedback per e-Mail, dass der Vorgang erfolgreich war.
+* **Use Case: Anmeldung Mentor:innen am TPD Tag**  
+Als Mentor:in möchte ich mich selbstständig an einem Table/PC anmelden, so daß das Orga-Team dafür nicht mehr benötigt wird. Dabei kann ich mich mit meinem persönlichen QR Code per Scanner anmelden und den ausgewählten Trainingsplatz (Tisch) festlegen.
 
-**Use Case 3: Verwaltung der Datenbank**
+* **Use Case: Anmeldung Mentee am TPD Tag**  
+Als Mentee kann ich mich beim Anmeldeteam mit meinem QR Code ausweisen, so daß das Anmeldeteam sofort meine Daten und mein Sprachlevel vorliegen hat.
 
-Als Administrator des DiRAm Projekts möchte ich alle Datensätze der Datenbank verwalten.  Das umfasst:
-- Anlegen neuer Datensätze
-- Löschen von Datensätzen
-- Änderungen von Datensätzen
-- Exportieren von Datensätzen
-- Backup Prozeduren
+* **Use Case: Zuordnung der Mentees zu einem/r Mentor:in am TPD Tag**  
+Als Anmeldeteam kann ich den Mentee über seinen QR Code per Scanner identifizieren, so daß ich ihn/sie direkt einem/r Mentor:in zuordnen kann. Durch die Zuordnung ist auch ersichtlich an welchem Platz (Tisch) der/die Mentor:in sitzt.
+
+* **Use Case: Überprüfung von Neuanmeldungen**  
+Als Registrar möchte ich die Daten neuangemeldeter Personen (vorläufige Datensätze) überprüfen können, um sie bei erfolgreicher Überprüfung in die Datenbank zu übernehmen (bestätigte Datensätze). Bei nicht erfolgreicher Überprüfung (z.B. fehlende Daten, Dubletten) kann ich die vorläufigen Datensätze löschen.
+
+* **Use Case: Verwaltung der Datenbank**  
+Als Administrator des DiRAm Projekts möchte ich alle Datensätze der Datenbank verwalten, so daß ich folgende Tätigkeiten durchführen kann:
+  - Anlegen neuer Datensätze
+  - Löschen von Datensätzen
+  - Änderungen von Datensätzen
+  - Exportieren von Datensätzen
+  - Backup Prozeduren
+
+.
+
+.
+
+.
 
 
-...
+> [!NOTE]  
+> <span style="color:red">**Bis hierhin ist das Template bearbeitet**</span>
+>  
+>  
 
----
----
-<span style="color:red">**Bis hierhin ist das Template bearbeitet**</span>
-
----
----
 
 <!--
 
