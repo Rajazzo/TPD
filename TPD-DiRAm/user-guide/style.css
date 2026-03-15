@@ -5,42 +5,37 @@ html {
 }
 
 .container {
-  text-align: center;
-  height: 100vh;
-  padding: 4px;
+/*  text-align: center; */
+  height: 100%;
+  padding: 6px;
   box-sizing: border-box;
   display: grid;
   grid-template-areas: "header header"
   "sidebar nav"  
   "sidebar article"
   "footer footer";
-  gap: 2px;
-  grid-template-columns: minmax(200px, 250px) minmax(600px, 3fr);
+  gap: 3px;
+  grid-template-columns: minmax(150px, 1fr) minmax(500px,4fr);
   grid-template-rows: 2fr 1fr 12fr 1fr;
   background-color: lightblue;
 }
 
 .container > div {
-  padding: 10px;
+  padding: 12px;
   font-size: 32px;
   font-family: Helvetica;
   font-weight: bold;
   color: white;
-  border-radius: 15px;
+  border-radius: 12px;
 }
 
 div ul {
   list-style: none;
   font-size: medium;
-  text-align: left;
 }
 
-li {
+div ul li {
   margin: 8px;  
-}
-
-p {
-  margin: 12px 0;
 }
 
 .header {
@@ -48,8 +43,12 @@ p {
   grid-column: 1 / span 2;
   grid-area: header;
   display: grid;
-  grid-template-columns: minmax(200px, 250px) minmax(600px, 3fr);
+  grid-template-columns: minmax(150px, 1fr) minmax(500px,4fr);
   text-align: start;
+}
+
+.header div {
+  padding-left: 12px;
 }
 
 .logo {
@@ -62,7 +61,6 @@ p {
   background-color: #106fac;
   grid-row: 2 / span 2; 
   grid-area: sidebar;
-  text-align: left;
 }
 
 .nav {
@@ -85,17 +83,17 @@ p {
   grid-row: 3 / span 1; 
   overflow: hidden;  
   display: grid;
-  align-content:start;
+  align-content: start;
 }
 
 .article-text {
   min-height: 0; /* Critical to prevent flexbox from forcing growth */
   overflow-y: auto; /* Enables scrolling when items exceed height */
-  padding: 0px 20px;
+  padding: 0px 8px;
 }
 
 .article-text p {
-  font-family: serif;
+  font-family: sans-serif;
   font-size: 16px;
   font-weight: normal;
   color: white;
@@ -107,20 +105,22 @@ p {
   grid-column: 1 / span 2;
   grid-area: footer;
   display: flex;
-  align-content: center;
+  align-items: center;
 }
 
-.footer p {
-  font-size: 12px;
+.footer span {
+  padding-left: 12px;
+  font-size: 10pt;
   text-align: left;
   font-weight: normal;
-  color: aliceblue;
+  color: rgb(183, 193, 201);
 }
 
-a {
+ul a, p a {
     color: #31fcff;
     text-decoration: none;
 }
+
 a:hover {
     color: #ffc531 ;
     text-decoration: underline ;
