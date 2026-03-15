@@ -16,7 +16,7 @@ html {
   "footer footer";
   gap: 3px;
   grid-template-columns: minmax(150px, 1fr) minmax(500px,4fr);
-  grid-template-rows: 2fr 1fr 12fr 1fr;
+  grid-template-rows: 1fr 1fr 12fr 1fr;
   background-color: lightblue;
 }
 
@@ -57,6 +57,12 @@ div ul li {
   align-items: center;     /* Vertikal */
 }
 
+.logo img {
+  padding-left: 16px;
+  height: 100px;
+  object-fit: cover;
+}
+
 .sidebar {
   background-color: #106fac;
   grid-row: 2 / span 2; 
@@ -71,11 +77,9 @@ div ul li {
 }
 
 .nav ul {
-  margin: 0;
-  padding: 0;
   display: flex;
   align-content: center;     /* Vertikal */
-  justify-content: space-around;
+  justify-content: start;
 }
 
 .article {
