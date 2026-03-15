@@ -61,6 +61,7 @@ div ul li {
   background-color: #106fac;
   grid-row: 2 / span 2; 
   grid-area: sidebar;
+  min-height: 200px;
 }
 
 .nav {
