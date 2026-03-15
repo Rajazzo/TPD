@@ -16,7 +16,7 @@ html {
   "footer footer";
   gap: 2px;
   grid-template-columns: minmax(200px, 250px) minmax(600px, 3fr);
-  grid-template-rows: 1fr 5% 8fr 5%;
+  grid-template-rows: 2fr 1fr 12fr 1fr;
   background-color: lightblue;
 }
 
