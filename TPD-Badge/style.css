@@ -41,14 +41,12 @@ body {
   translate: 0 -7mm;
 }
 
-/*
-Source - https://stackoverflow.com/a/907719
-Posted by Dmitri Farkov, modified by community. See post 'Timeline' for change history
-Retrieved 2026-03-11, License - CC BY-SA 4.0
-*/
-
 @media print {
   .card {
     break-inside: avoid;
+  }
+
+  .pb {
+    page-break-after: always;
   }
 }
