@@ -133,9 +133,9 @@ a:hover {
 }
 
 .diagram {
-  border: black;
+  border: darkblue;
   border-width: 10px;
   background-color: lightgray;
   padding: 8px;
-  width: 600px;
+  width: 800px;
 }
