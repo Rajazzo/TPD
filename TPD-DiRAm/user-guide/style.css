@@ -134,8 +134,9 @@ a:hover {
 
 .diagram {
   border: darkblue;
+  border-radius: 10px;
   border-width: 10px;
-  background-color: lightgray;
+  background-color: rgb(241, 240, 240);
   padding: 8px;
   width: 800px;
 }
