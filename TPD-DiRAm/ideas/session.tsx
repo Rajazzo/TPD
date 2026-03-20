@@ -9,27 +9,18 @@ type Mentee = {
 };
 
 type Session = {
-  id: number;
+  day: string;  /* only one session per day per mentor possible */ 
   mentorId: string;
   menteeIds: string[];
 };
 
 class MentoringSystem {
-  private mentors: Mentor[] = [];
-  private mentees: Mentee[] = [];
   private sessions: Session[] = [];
 
-  addMentor(mentor: Mentor) {
-    this.mentors.push(mentor);
-  }
-
-  addMentee(mentee: Mentee) {
-    this.mentees.push(mentee);
-  }
-
   addSession(mentorId: string, menteeIds: string[]) {
+    const heuteIso = new Date().toISOString().slice(0, 10);
     this.sessions.push({
-      id: this.sessions.length + 1,
+      day: heuteIso,
       mentorId,
       menteeIds,
     });
