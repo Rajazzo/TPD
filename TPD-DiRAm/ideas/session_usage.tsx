@@ -2,13 +2,13 @@
 const system = new MentoringSystem();
 
 // Mentoren
-system.addMentor({ id: "m1", name: "Alice" });
-system.addMentor({ id: "m2", name: "Bob" });
+m1 = getMentorID("m1");
+m2 = getMentorID("m2");
 
 // Mentees
-system.addMentee({ id: "t1", name: "Tom" });
-system.addMentee({ id: "t2", name: "Lisa" });
-system.addMentee({ id: "t3", name: "Max" });
+t1 = getMEnteeID("t1");
+t2 = getMEnteeID("t2");
+t3 = getMEnteeID("t3");
 
 // Sessions (Termine)
 system.addSession("m1", ["t1", "t2"]);
