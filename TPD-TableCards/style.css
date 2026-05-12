@@ -1,0 +1,101 @@
+
+/* ── Page setup ───────────────────────────────────────────
+   A4 landscape = 297 × 210 mm
+   Two A5 portrait cards (148 × 210 mm) side-by-side fit exactly.
+   Page 1 = fronts (cards 1 & 2)
+   Page 2 = backs  (cards 3 & 4, swapped left↔right for duplex alignment)
+──────────────────────────────────────────────────────── */
+@page {
+  size: A4 landscape;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Times New Roman', serif;
+  width: 297mm;
+  /* Each "row" is one A4 page worth of two A5 cards side by side */
+}
+
+/* ── One A4 page (holds 2 × A5 cards) ─────────────────── */
+.page {
+  display: flex;
+  flex-direction: row;
+  width: 297mm;
+  height: 210mm;
+  break-after: page;          /* each .page starts a new printed page */
+  overflow: hidden;
+}
+
+/* ── Single A5 table card ──────────────────────────────── */
+.table {
+  border: 2px solid midnightblue;
+  /*border-radius: 15px;*/
+  width: 48%;
+  height: 204mm;
+  /*padding: 5mm;*/
+  background-color: lightblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 3mm;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+
+/* Logo / QR code area */
+.qrcode {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  height: 80mm;
+  width: 80mm;
+  object-fit: contain;
+}
+
+/* Table number */
+.number {
+  text-align: center;
+  font-size: 220pt;     /* scaled down slightly so it fits the A5 height */
+  font-weight: bold;
+  color: black;
+  line-height: 1;
+}
+
+/* ── Screen preview only ───────────────────────────────── */
+@media screen {
+  body {
+    background: #ccc;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: auto;
+  }
+  .page {
+    box-shadow: 0 4px 20px rgba(0,0,0,.25);
+    background: white;
+    gap: 0;
+  }
+  .page::before {
+    content: attr(data-label);
+    position: absolute;
+    transform: translateY(-22px);
+    font-size: 11px;
+    font-family: sans-serif;
+    color: #666;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+  .page { position: relative; }
+}
