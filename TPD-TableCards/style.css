@@ -36,15 +36,15 @@ body {
 .table {
   border: 2px solid midnightblue;
   /*border-radius: 15px;*/
-  width: 48%;
-  height: 204mm;
+  width: 46%;
+  height: 200mm;
   /*padding: 5mm;*/
   background-color: lightblue;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  margin: 3mm;
+  margin: 6mm;
   flex-shrink: 0;
   overflow: hidden;
 }
